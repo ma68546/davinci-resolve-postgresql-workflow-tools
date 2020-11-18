@@ -78,8 +78,8 @@ Jathavan Sriram [wrote a great article back in 2014](https://web.archive.org/web
 
 The core insights from his 2014 article still apply, but several crucial changes need to be made for modern systems:
 1. Apple [deprecated `cron` in favor of `launchd`](https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html). 
-2. Starting with DaVinci Resolve 12.5.4 on macOS, DaVinci Resolve has been using PostgreSQL 9.5.
-3. The locations of `reindexdb` and `vacuumdb` in PostgreSQL 9.5.4 have changed from what they were in PostgreSQL 8.4.
+2. Starting with DaVinci Resolve 12.5.3 on macOS, DaVinci Resolve has been using PostgreSQL 9.5.
+3. The locations of `reindexdb` and `vacuumdb` in PostgreSQL 9.5 have changed from what they were in PostgreSQL 8.4.
 
 ## What this script does
 
